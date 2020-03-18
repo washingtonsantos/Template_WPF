@@ -7,8 +7,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9234DA6A-738
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Apresentacao", "1 - Apresentacao", "{273CF857-2004-45E6-B152-EE49AFA27BCF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apresentacao.WPF", "src\1 - Apresentacao\APresentacao.WPF\Apresentacao.WPF.csproj", "{60613CA7-230C-4908-8453-C7ECD03790AF}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Aplicacao", "3 - Aplicacao", "{5D23B2CD-2597-4034-9C72-2458C757F9C1}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Template_DDD_WPF.Aplicacao", "src\3 - Aplicacao\Template_DDD_WPF.Aplicacao\Template_DDD_WPF.Aplicacao.csproj", "{8F5DC1B3-FD22-478C-A980-9A2EBC4D9CAE}"
@@ -27,7 +25,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.1 - Dados", "5.1 - Dados"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.2 - CrossCutting", "5.2 - CrossCutting", "{F7C6EFF8-4B21-4055-939A-45F7DCD63E0F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template_DDD_WPF.Infra.Dados.Dapper", "src\5 - Infra\5.1 - Dados\Template_DDD_WPF.Infra.Dados.Dapper\Template_DDD_WPF.Infra.Dados.Dapper.csproj", "{1827A68F-0364-4921-A22C-F21FA2216E24}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Template_DDD_WPF.Infra.Dados.Dapper", "src\5 - Infra\5.1 - Dados\Template_DDD_WPF.Infra.Dados.Dapper\Template_DDD_WPF.Infra.Dados.Dapper.csproj", "{1827A68F-0364-4921-A22C-F21FA2216E24}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{774E2728-C3B3-4C4C-AF86-A595893858E7}"
 EndProject
@@ -42,10 +40,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{60613CA7-230C-4908-8453-C7ECD03790AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{60613CA7-230C-4908-8453-C7ECD03790AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{60613CA7-230C-4908-8453-C7ECD03790AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{60613CA7-230C-4908-8453-C7ECD03790AF}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8F5DC1B3-FD22-478C-A980-9A2EBC4D9CAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8F5DC1B3-FD22-478C-A980-9A2EBC4D9CAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F5DC1B3-FD22-478C-A980-9A2EBC4D9CAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -68,7 +62,6 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{273CF857-2004-45E6-B152-EE49AFA27BCF} = {9234DA6A-7385-4857-B3E8-60BCFCE9972E}
-		{60613CA7-230C-4908-8453-C7ECD03790AF} = {273CF857-2004-45E6-B152-EE49AFA27BCF}
 		{5D23B2CD-2597-4034-9C72-2458C757F9C1} = {9234DA6A-7385-4857-B3E8-60BCFCE9972E}
 		{8F5DC1B3-FD22-478C-A980-9A2EBC4D9CAE} = {5D23B2CD-2597-4034-9C72-2458C757F9C1}
 		{7764A3F2-2985-4057-9615-3E522D6C2F2B} = {9234DA6A-7385-4857-B3E8-60BCFCE9972E}
