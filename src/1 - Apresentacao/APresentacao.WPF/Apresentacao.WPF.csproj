@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{60613CA7-230C-4908-8453-C7ECD03790AF}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Apesentacao.WPF</RootNamespace>
+    <RootNamespace>Apresentacao.WPF</RootNamespace>
     <AssemblyName>Apresentacao.WPF</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>

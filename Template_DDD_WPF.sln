@@ -32,6 +32,9 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{774E2728-C3B3-4C4C-AF86-A595893858E7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "template", "template", "{BCD7E110-A618-4A6B-85A1-9554BAE3F72E}"
+	ProjectSection(SolutionItems) = preProject
+		template\Template_DDD_WPF.zip = template\Template_DDD_WPF.zip
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

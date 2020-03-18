@@ -1,7 +1,7 @@
-﻿<Application x:Class="APresentacao.WPF.App"
+﻿<Application x:Class="Apresentacao.WPF.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:APresentacao.WPF"
+             xmlns:local="clr-namespace:Apresentacao.WPF"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
          
